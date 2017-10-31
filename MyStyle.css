@@ -1,0 +1,138 @@
+
+ body{
+    margin:0px;
+ }	
+  
+#top{
+	position: fixed;
+	display:block;
+	z-index: 1;
+	background-color: #444444;
+    padding: 25px;	
+	margin: 0px auto;
+	height: 40px;
+	width: 100%;
+	
+}
+
+#top a:link{
+	color: #999999;
+}
+#top a:hover, span a:visited{
+	color:#00CC00;
+}
+#top a{
+	font-size: 16px;
+	text-decoration: none;
+    
+	
+}
+fieldset.title {
+    border-top: 1px solid #aaa;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    display: block;
+    text-align: center;
+}
+
+fieldset.title legend {
+    padding: 5px 10px;
+	color: #303030;
+}
+p{
+	color: black;
+	text-decoration: none;
+}
+.button {
+    background-color: #00CC00;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+ ul { 
+ display:table; 
+ margin:0 auto;
+ }
+li{
+	 font-size: 15px;
+	 font-family: 'Open Sans',arial,sans-serif;
+	 line-height: 30px;
+	 color: #303030;
+	 font-family: Arial, Helvetica, sans-serif;
+	 font-weight: 600;
+ }
+.backimg{
+	 
+	 background-color: hsla(0,0%,100%,0.70);
+    background-blend-mode: overlay;
+	 background-image: url("one.png");
+	 background-repeat: no-repeat;
+	 background-size: 100%;
+	 height: 440px;
+	  filter: grayscale(100%); /* Current draft standard */
+    -webkit-filter: grayscale(100%); /* New WebKit */
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%); 
+    -o-filter: grayscale(100%); /* Not yet supported in Gecko, Opera or IE */ 
+    filter: url(resources.svg#desaturate); /* Gecko */
+    filter: gray; /* IE */
+    -webkit-filter: grayscale(1); /* Old WebKit */
+}
+
+section {  
+padding:30px; 
+overflow:hidden; 
+}
+section > section { 
+float:left; 
+}
+
+.link-div{
+	 margin-top: 40px;
+	 margin-bottom: 80px;
+	 text-align: center;
+}
+.contacts{
+	margin: 90px; 
+	display: inline-block;
+	
+}
+.center-div
+{
+     margin: 0 auto;
+     width: 800px; 
+}
+#map{
+        height: 200px;
+        width: 100%;
+		display: inline-block;
+}
+.footer .footer-text{
+	padding-left: 240px;
+}
+.footer .footer-link{
+	padding-left: 590px;
+}
+.footer{
+    padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0;
+	position:absolute;
+    width:100%;
+	color: #999999;
+	background-color: #303030;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.footer a:link{
+	color: green;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+

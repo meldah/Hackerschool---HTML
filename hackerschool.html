@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Hacker School </title>
+<meta charset=utf-8>
+<link rel="stylesheet" href="MyStyle.css">
+<link rel="icon" href="penguin.png"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div id="top">
+<span style="padding-left:140px; padding-right:360px"> 
+<a href="http://hackerschool-bg.com/"> 
+<img src="hackerschool.png" alt="Logo" height="35" width="118"> 
+</a> 
+</span>
+<a href="apply.html"> КАНДИДАТСТВАНЕ </a>
+<a href="interships.html"> СТАЖОВЕ </a>
+<a href="faq.html"> FAQ </a>
+<a href="about.html"> ЗА НАС </a>
+<a href="blog.html"> БЛОГ </a>
+<a href="about.html"> 2048 </a>
+</div>
+
+
+<div >
+    <img src="school.jpg" alt="Hacker School" width="100%" style="margin-top:60px">
+</div>
+
+<div class="center-div" >
+<p style="text-align: center; padding-top: 40px;
+	color: #303030; font-size: 32px" > ПРОФЕСИОНАЛНИ КУРСОВЕ ЗА ПРОГРАМИСТИ </p>
+
+<section style="text-align: center">
+<section>
+<fieldset class="title">
+    <legend align="center">НАЧИНАЕЩИ</legend>
+</fieldset>
+<div> <img src="one.png"> </div> <br>
+<strong> Стартирали </strong> <br>
+Programing Fundamentals <br>
+Linux 101 <br>
+
+<div style="padding-top: 20px">
+<strong> Стартирали </strong> <br>
+<a href="frontend.html" style="color:#00CC00; text-decoration:none" > Frontend Fundamentals </a> <br>
+<a href="database.html" style="color:#00CC00; text-decoration:none" > Database Fundamentals </a> <br>
+</div>
+</section>
+
+<section>
+<fieldset class="title">
+    <legend align="center">НАПРЕДНАЛИ</legend>
+</fieldset>
+<div> <img src="two.png"> </div> <br>
+<strong>Отворени за записване </strong> <br>
+<a href="advanced.html" style="color:#00CC00; text-decoration:none"> Programming Advanced </a> <br>
+<a href="linux.html" style="color:#00CC00; text-decoration:none"> Linux Advanced </a> <br>
+
+
+<div style="padding-top: 20px">
+<strong> Предстоящи </strong> <br>
+Programming Master <br>
+Linux Master <br>
+</div>
+</section>
+</section>
+
+</div>
+
+
+<div>
+<center>
+<a href="#" class="button">Кандитатстване </a>
+</center>
+</div>
+<div class="backimg">
+<p style="text-align: center; line-height:120px; font-size:18px; font-family: PT Sans, Arial, Helvetica, sans-serif; color: #303030; font-weight:600"> ЗАЩО ДА ИЗБЕРЕТЕ НАС? </p>
+<ul>
+<li> Безплатни курсове </li>
+<li> Сертифицирани преподаватели с голям опит </li>
+<li> Персонален подход – малки групи до 7 човека </li>
+<li> Решаване на практически задачи </li>
+<li> Натоварване съобразено с лекции и упражнения </li>
+<li> Възможност за стаж и стипендия </li>
+</ul>
+</div>
+<div class="link-div" >
+Hacker School BG е проект организиран и финансиран от <br>
+<div style="padding:24px" > <a href="http://telebid-pro.com/" target="_blank">
+<img src="link.jpg" alt="linkImage" id="link"  width=225px height=36px/> <br>
+</a>
+</div>
+и нашите партньорски компании
+</div>
+<center>
+<div class="contacts">
+<h3 style="text-align: left; margin-top:20px; color: #333333; font-family: Arial, Helvetica, sans-serif"> КОНТАКТИ </h3>
+<p style="text-decoration: underline; text-align: left; color: #333333; font-family: Arial, Helvetica, sans-serif"> <i class="fa fa-map-marker"> </i> България, София 1408, ул.”Нишава” 105, ет.1, оф.1 </p>
+<p style="text-decoration: underline; text-align: left; color: #333333; font-family: Arial, Helvetica, sans-serif"> <i class="fa fa-phone"> </i> 02 411 48 42 
+</p>
+<p style="text-decoration: underline; text-align: left; color: #333333; font-family: Arial, Helvetica, sans-serif">  <i class="fa fa-envelope-o fa-fw"> </i>  school (at) hackerschool-bg (dot) com </p>
+</div>
+
+<div id="map" style="width:400px; height:200px"> 
+</div>
+</center>
+
+<div class="footer">
+<span class="footer-text" > © 2013-2017 Hacker School BG </span>
+<span class="footer-link" > <a href="#top" >  ^ Top  </a> </span>
+</div>
+
+<script>
+      function initMap() {
+        var uluru = {lat: 42.6740133, lng: 23.2975089};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9SOUb_iw4-O5FMBq65Pw_xPJZs-EuJNQ &callback=initMap">
+    </script>
+
+</body>
+
+</html>
